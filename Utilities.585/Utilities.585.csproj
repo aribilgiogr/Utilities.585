@@ -5,6 +5,8 @@
     <RootNamespace>Utilities._585</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<PackageVersion>10.0.0-alpha</PackageVersion>
+	<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
