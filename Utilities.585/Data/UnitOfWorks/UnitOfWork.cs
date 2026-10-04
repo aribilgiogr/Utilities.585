@@ -7,9 +7,9 @@ namespace Utilities._585.Data.UnitOfWorks
 {
     public class UnitOfWork<TContext> : IUnitOfWork where TContext : DbContext
     {
-        private readonly DbContext _context;
+        private readonly TContext _context;
         private readonly ConcurrentDictionary<Type, object> repositories;
-        public UnitOfWork(DbContext context)
+        public UnitOfWork(TContext context)
         {
             _context = context;
             repositories = [];
